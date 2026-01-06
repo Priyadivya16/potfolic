@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Divya Priya | Portfolio</title>
+
+<style>
+:root{
+    --primary:#00ffff;
+    --bg:#0a0f33;
+    --card:#11185a;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body{
+    background:var(--bg);
+    color:white;
+}
+
+/* HEADER */
+header{
+    background:linear-gradient(90deg,#050820,#0a0f33);
+    padding:30px 20px;
+    text-align:center;
+}
+header h1{
+    color:var(--primary);
+    font-size:34px;
+}
+header p{
+    color:#ccc;
+}
+
+/* SECTION COMMON */
+section{
+    padding:50px 10%;
+}
+h2{
+    color:var(--primary);
+    margin-bottom:25px;
+    position:relative;
+}
+h2::after{
+    content:'';
+    width:60px;
+    height:3px;
+    background:var(--primary);
+    position:absolute;
+    left:0;
+    bottom:-8px;
+}
+
+/* CARDS */
+.card{
+    background:var(--card);
+    padding:25px;
+    border-radius:14px;
+    margin-top:20px;
+    box-shadow:0 10px 25px rgba(0,255,255,.08);
+}
+
+/* ABOUT */
+.about p{
+    color:#ddd;
+    line-height:1.7;
+    margin-bottom:12px;
+}
+
+/* SKILLS */
+.skills ul{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(160px,1fr));
+    gap:15px;
+}
+.skills li{
+    list-style:none;
+    background:#0c1360;
+    padding:12px;
+    border-radius:20px;
+    text-align:center;
+}
+
+/* LISTS */
+ul{
+    padding-left:20px;
+}
+li{
+    margin-bottom:8px;
+    color:#ddd;
+}
+
+/* LINKS */
+a{
+    color:var(--primary);
+    text-decoration:none;
+    font-weight:bold;
+}
+
+/* FOOTER */
+footer{
+    background:#050820;
+    text-align:center;
+    padding:15px;
+    color:#aaa;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Divya Priya V</h1>
+    <p>B.Sc Computer Science | Web & App Developer</p>
+</header>
+
+<!-- ABOUT -->
+<section class="about">
+<h2>About Me</h2>
+<div class="card">
+    <p>
+        I am a passionate Computer Science student with strong interest in
+        web and application development. I enjoy transforming ideas into
+        real-world digital solutions.
+    </p>
+    <p><strong>Career Goal:</strong> Full Stack Developer</p>
+    <p><strong>Hobbies:</strong> Craft Making, Cooking</p>
+    <p>
+        <strong>Technical Interest:</strong>
+        Ethical hacking concepts, CCTV security systems, alert-based monitoring
+        solutions, and secure application development.
+    </p>
+</div>
+</section>
+
+<!-- EDUCATION -->
+<section>
+<h2>Education</h2>
+<div class="card">
+    <h3>B.Sc Computer Science</h3>
+    <p>PSGR Krishnammal College for Women</p>
+    <p>2023 – 2026 | <strong>80%</strong></p>
+</div>
+</section>
+
+<!-- SKILLS -->
+<section class="skills">
+<h2>Skills</h2>
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+    <li>MySQL</li>
+    <li>PHP</li>
+    <li>Flutter</li>
+    <li>Firebase</li>
+    <li>Problem Solving</li>
+</ul>
+</section>
+
+<!-- EXPERIENCE -->
+<section>
+<h2>Internship & Experience</h2>
+
+<div class="card">
+    <h3>Web Development Intern</h3>
+    <p><strong>Marvel Motors – Ganapathy</strong></p>
+    <ul>
+        <li>Frontend website development</li>
+        <li>Responsive UI design</li>
+        <li>Improved customer interaction experience</li>
+    </ul>
+    <a href="https://marvel-suqi.vercel.app/" target="_blank">Live Project</a>
+</div>
+
+<div class="card">
+    <h3>Sales & Operations Experience</h3>
+    <p><strong>Suriya Shop</strong></p>
+    <ul>
+        <li>Packing and product handling</li>
+        <li>Price labeling and billing</li>
+        <li>Customer support</li>
+    </ul>
+</div>
+</section>
+
+<!-- PROJECTS -->
+<section>
+<h2>Projects</h2>
+
+<div class="card">
+    <h3>Viewtech Security Website</h3>
+    <p>CCTV service website with modern UI.</p>
+    <a href="https://viewtechsecurity.netlify.app/" target="_blank">View Website</a>
+</div>
+
+<div class="card">
+    <h3>AD Secure Solution – Website</h3>
+    <a href="https://aravindcctv-cameracom.vercel.app/" target="_blank">View Website</a>
+</div>
+
+<div class="card">
+    <h3>AD Secure Solution – Mobile App</h3>
+    <ul>
+        <li>CCTV camera configuration via mobile</li>
+        <li>Integrated real-time alert system</li>
+        <li>Improved security response time</li>
+    </ul>
+</div>
+</section>
+
+<!-- ACHIEVEMENTS -->
+<section>
+<h2>Achievements & Certifications</h2>
+<div class="card">
+<ul>
+    <li>District, State & National Level Yoga Champion (2 Years)</li>
+    <li>Coursera – HTML Certification</li>
+    <li>International Conference on Yoga Philosophy – Kanyakumari</li>
+    <li>International Seminar – Central University of Kerala</li>
+    <li>Group Exam 4 – Scored 105 Marks</li>
+</ul>
+</div>
+</section>
+
+<!-- CONTACT -->
+<section>
+<h2>Contact</h2>
+<div class="card">
+    <p>Email: priyadivya1614@mail.com</p>
+    <p>Phone: +91 81482 40152</p>
+    <p>GitHub: <a href="https://github.com/Priyadivya16">Priyadivya16</a></p>
+</div>
+</section>
+
+<footer>
+© 2026 Divya Priya | Portfolio
+</footer>
+
+</body>
+</html>
